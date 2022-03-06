@@ -1,0 +1,30 @@
+
+*,
+*::after,
+*::before{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: $font-size;
+    font-family: $font-family
+}
+
+body{
+    background-image: url(../../img/fond.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    width: $width;
+    background-color: white; 
+}
+#contact{
+    width: 100%;
+}

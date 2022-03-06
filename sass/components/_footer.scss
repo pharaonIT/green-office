@@ -1,0 +1,15 @@
+.mention{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    &__logo{
+        height: 40px;
+        width: 40px;
+    }
+    &__para{
+        font-size: 1.15rem;
+    }
+}    

@@ -1,0 +1,35 @@
+.contents1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: grey;
+
+    &__title{
+        color: $green;
+        font-size: 1.5rem;
+    }
+    &__containing{
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+    &__imgs{
+        height: 50px;
+        float: left;
+        margin-right: 10px;
+    }
+    &__button{
+        width: 120px;
+        height: 30px;
+        margin-left: 80%;
+        background-color: $green;
+        border-style: none;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    &__list{
+        margin-left: 30px;
+    }
+
+}
